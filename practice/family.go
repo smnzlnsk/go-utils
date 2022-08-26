@@ -10,9 +10,5 @@ type Person struct {
 }
 
 func PrintPerson(p *Person) {
-	fmt.Printf("name: %s; age: %d", p.Name, p.Age)
-}
-
-func PrintPerson2(p Person) {
-	fmt.Printf("name: %s; age: %d", p.Name, p.Age)
+	fmt.Printf("name: %s; age: %d\n", p.Name, p.Age)
 }
